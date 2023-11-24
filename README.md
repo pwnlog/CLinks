@@ -153,5 +153,7 @@ Nice evasion articles:
 # Mindmaps
 
 Collection of mindmaps:
-- https://github.com/theonlykernel/enumeration/wiki
+- https://github.com/Ignitetechnologies/Mindmap/
+- https://www.amanhardikar.com/mindmaps/
+- https://www.amanhardikar.com/mindmaps/Practice.html
 - https://orange-cyberdefense.github.io/ocd-mindmaps/
