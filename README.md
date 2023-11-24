@@ -6,6 +6,7 @@ A collection of sites to learn and practice cybersecurity.
 
 Practice in vulnerable labs:
 - https://github.com/kaiiyer/awesome-vulnerable
+- https://docs.google.com/spreadsheets/u/0/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview?pli=1
 
 Learn about vulnerable code:
 - https://github.com/snoopysecurity/Vulnerable-Code-Snippets
@@ -90,6 +91,12 @@ Secure coding articles:
 - https://snyk.io/learn/secure-coding-practices/
 - https://developers.redhat.com/topics/secure-coding
 
+# Exploit Development
+
+Exploit development:
+- https://exploitation.ashemery.com/
+- https://www.corelan.be/
+
 # Notes
 
 Collection of notes:
@@ -124,6 +131,7 @@ Collection of cheat sheets:
 # Articles / Blogs
 
 Nice blogs to read:
+- https://tmpout.sh/
 - https://s3cur3th1ssh1t.github.io/
 - https://luemmelsec.github.io/
 - https://blog.xpnsec.com/
@@ -135,6 +143,10 @@ Nice blogs to read:
 - https://shorsec.io/blog/
 - https://dirkjanm.io/
 - https://assume-breach.medium.com/
+- https://0xsp.com/
+- https://sokarepo.github.io/
+- https://magisterquis.github.io/
+- https://offsec.almond.consulting/
 
 Nice articles must read:
 - AD: 
@@ -143,6 +155,9 @@ Nice articles must read:
     - https://hideandsec.sh/books/windows-sNL/page/in-the-potato-family-i-want-them-all
 - AD CS: 
     - https://luemmelsec.github.io/Skidaddle-Skideldi-I-just-pwnd-your-PKI/
+    - https://offsec.almond.consulting/authenticating-with-certificates-when-pkinit-is-not-supported.html
+- LDAP:
+    - https://offsec.almond.consulting/ldap-authentication-in-active-directory-environments.html
 - Services: 
     - https://luemmelsec.github.io/Pentest-Everything-SMTP/
 
