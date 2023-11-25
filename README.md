@@ -108,6 +108,7 @@ Exploit development:
 # Evasion
 
 Bypass AV/EDR/MDR/XDR software:
+- https://xacone.github.io/custom_shellcode.html
 - https://s3cur3th1ssh1t.github.io/A-tale-of-EDR-bypass-methods/
 - https://luemmelsec.github.io/Circumventing-Countermeasures-In-AD/
 - https://blog.scrt.ch/category/antivirus/
@@ -185,6 +186,7 @@ Nice blogs to read:
 - https://harmj0y.medium.com
 - https://redsiege.com/red-siege-blog/
 - https://www.hackthebox.com/blog/
+- https://xacone.github.io/
 
 Nice articles to read:
 - AD: 
