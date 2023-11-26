@@ -26,6 +26,9 @@ Exploit databases:
 - https://www.exploit-db.com/
 - https://www.rapid7.com/db/
 
+PoC collections:
+- https://github.com/trickest/cve
+
 Vulnerability databases
 - https://nvd.nist.gov/vuln
 - https://security.snyk.io/
@@ -47,10 +50,14 @@ MITRE ATT&CK:
 Red team tactics:
 - https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/  
 - https://atomicredteam.io/atomics/
+- https://github.com/A-poc/RedTeam-Tools
 - https://github.com/center-for-threat-informed-defense
 - https://redteamrecipe.com/  
 - https://book.redteamguides.com/
 - https://github.com/LuemmelSec/Pentest-Tools-Collection#obfuscation
+
+Adversary emulation platforms:
+- https://github.com/mitre/caldera
 
 Evasion:
 - https://github.com/topics/edr-evasion
@@ -68,7 +75,14 @@ MITRE D3FEND:
 
 Blue team tactics:
 - https://github.com/A-poc/BlueTeam-Tools
-- https://outflank.nl/blog/2021/03/03/catching-red-teams-with-honeypots-part-1-local-recon/
+- https://book.blueteamguides.com/
+- https://github.com/fabacab/awesome-cybersecurity-blueteam
+- https://github.com/rshipp/awesome-malware-analysis
+- https://github.com/paralax/awesome-honeypots
+- https://github.com/meirwah/awesome-incident-response
+- https://github.com/hslatman/awesome-threat-intelligence
+- https://github.com/InQuest/awesome-yara
+- https://github.com/kai5263499/container-security-awesome 
 
 Windows logs references:
 - https://www.ultimatewindowssecurity.com/
@@ -80,6 +94,7 @@ Sysmon references:
 # Hardening and Compliance
 
 Implement hardening in infrastructure:
+- https://github.com/decalage2/awesome-security-hardening
 - https://www.cisecurity.org/cis-benchmarks
 - https://www.sans.org/information-security-policy/
 - https://github.com/SpecterOps/TierZeroTable/
