@@ -55,6 +55,20 @@ Red team tactics:
 - https://redteamrecipe.com/  
 - https://book.redteamguides.com/
 - https://github.com/LuemmelSec/Pentest-Tools-Collection#obfuscation
+- https://github.com/RistBS/Awesome-RedTeam-Cheatsheet
+- https://github.com/h3ll0clar1c3/CRTO
+
+Practice Red Team Ops:
+- https://github.com/WesleyWong420/RedTeamOps-Havoc-101
+
+OPSEC:
+- https://labs.nettitude.com/blog/creating-an-opsec-safe-loader-for-red-team-operations/
+- https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap
+
+OSINT:
+- https://github.com/OffcierCia/non-typical-OSINT-guide
+- https://github.com/jivoi/awesome-osint
+- https://github.com/OhShINT/ohshint.gitbook.io
 
 Adversary emulation platforms:
 - https://github.com/mitre/caldera
@@ -82,7 +96,11 @@ Blue team tactics:
 - https://github.com/meirwah/awesome-incident-response
 - https://github.com/hslatman/awesome-threat-intelligence
 - https://github.com/InQuest/awesome-yara
+- https://github.com/cugu/awesome-forensics
 - https://github.com/kai5263499/container-security-awesome 
+
+Parkerian Hexad:
+- https://en.wikipedia.org/wiki/Parkerian_Hexad
 
 Windows logs references:
 - https://www.ultimatewindowssecurity.com/
@@ -91,6 +109,13 @@ Sysmon references:
 - https://github.com/SwiftOnSecurity/sysmon-config
 - https://www.youtube.com/watch?v=kESndPO5Fig&list=PLk-dPXV5k8SG26OTeiiF3EIEoK4ignai7
 
+# Security Advisories
+
+Keep up to date with security advisories:
+- https://www.cisa.gov/news-events/cybersecurity-advisories
+- https://technet.microsoft.com/security/advisory
+- https://www.sophos.com/en-us/security-advisories
+
 # Hardening and Compliance
 
 Implement hardening in infrastructure:
@@ -98,6 +123,20 @@ Implement hardening in infrastructure:
 - https://www.cisecurity.org/cis-benchmarks
 - https://www.sans.org/information-security-policy/
 - https://github.com/SpecterOps/TierZeroTable/
+
+Zero trust:
+- https://www.microsoft.com/en-us/security/business/zero-trust
+
+Security Baselines:
+- https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines
+- https://techcommunity.microsoft.com/t5/microsoft-security-baselines/bg-p/Microsoft-Security-Baselines
+
+Cybersecurity evaluation tools:
+- CISA CSET: https://www.cisa.gov/downloading-and-installing-cset
+
+Compliance toolkits:
+- https://www.microsoft.com/en-us/download/details.aspx?id=55319
+- https://ubuntu.com/security/certifications/docs/16-18/cis/compliance
 
 Compliance CSF references:
 - https://csf.tools/reference/nist-cybersecurity-framework/v1-1/
@@ -113,6 +152,9 @@ Secure coding articles:
 - https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/01-introduction/05-introduction
 - https://snyk.io/learn/secure-coding-practices/
 - https://developers.redhat.com/topics/secure-coding
+
+Development guides:
+- https://github.com/cisagov/development-guide
 
 # Exploit Development
 
@@ -146,6 +188,7 @@ Collection of cheat sheets:
 - https://github.com/ivan-sincek/android-penetration-testing-cheat-sheet
 - https://github.com/ivan-sincek/wifi-penetration-testing-cheat-sheet
 - https://github.com/drak3hft7/Cheat-Sheet---Active-Directory
+- https://github.com/Kyuu-Ji/Awesome-Azure-Pentest
 - https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet
 - https://hideandsec.sh/books/cheatsheets-82c/page/active-directory
 - https://github.com/riramar/Web-Attack-Cheat-Sheet
@@ -204,19 +247,14 @@ Nice blogs to read:
 - https://xacone.github.io/
 
 Nice articles to read:
-- AD: 
-    - https://zer1t0.gitlab.io/posts/attacking_ad/
-    - https://medium.com/@br4nsh/from-linux-to-ad-10efb529fae9
-- Privilege Escalation: 
-    - https://hideandsec.sh/books/windows-sNL/page/in-the-potato-family-i-want-them-all
-    - https://blog.whiteflag.io/blog/exploiting-windows-tokens/
-- AD CS: 
-    - https://luemmelsec.github.io/Skidaddle-Skideldi-I-just-pwnd-your-PKI/
-    - https://offsec.almond.consulting/authenticating-with-certificates-when-pkinit-is-not-supported.html
-- LDAP:
-    - https://offsec.almond.consulting/ldap-authentication-in-active-directory-environments.html
-- Services: 
-    - https://luemmelsec.github.io/Pentest-Everything-SMTP/
+- https://zer1t0.gitlab.io/posts/attacking_ad/
+- https://medium.com/@br4nsh/from-linux-to-ad-10efb529fae9
+- https://hideandsec.sh/books/windows-sNL/page/in-the-potato-family-i-want-them-all
+- https://blog.whiteflag.io/blog/exploiting-windows-tokens/
+- https://luemmelsec.github.io/Skidaddle-Skideldi-I-just-pwnd-your-PKI/
+- https://offsec.almond.consulting/authenticating-with-certificates-when-pkinit-is-not-supported.html
+- https://offsec.almond.consulting/ldap-authentication-in-active-directory-environments.html
+- https://luemmelsec.github.io/Pentest-Everything-SMTP/
 
 # Mindmaps
 
