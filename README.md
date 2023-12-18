@@ -41,6 +41,20 @@ Vulnerability references:
 - https://ubuntu.com/security/cves
 - https://access.redhat.com/security/vulnerabilities
 
+Security Advisories and Update Guides:
+- https://learn.microsoft.com/en-us/security-updates/securitybulletins/securitybulletins
+- https://msrc.microsoft.com/update-guide/
+- https://ubuntu.com/security/cves
+- https://access.redhat.com/security/security-updates/cve
+- https://access.redhat.com/security/security-updates/security-advisories
+- https://www.veeam.com/knowledge-base.html
+- https://www.vmware.com/security/advisories.html
+- https://www.dell.com/support/security/en-us
+- https://sec.cloudapps.cisco.com/security/center/publicationListing.x
+- https://www.cisco.com/c/en/us/support/security/identity-services-engine/products-security-advisories-list.html
+
+> **Info**: Security advisories and update guides can be used to find remediations, mitigations, and/or workarounds for specific products. It also details which products and/or software are affected by a specific vulnerability. It is recommended to review the advisories of a vendor when performing vulnerability assessments, penetration tests, red team engagements, or for reporting in general.
+
 # Red Team
 
 MITRE ATT&CK:
