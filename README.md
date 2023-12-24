@@ -1,6 +1,6 @@
-# Cyber-101
+# Centra Cyber
 
-A collection of sites to learn and practice cybersecurity.
+A collection of sites related to cybersecurity.
 
 # Vulnerable Environments
 
@@ -16,6 +16,24 @@ Learn about vulnerable code:
 - https://github.com/digininja/DVWA
 
 # Vulnerabilities
+
+Latest vulnerabilities:
+- https://github.com/CVEProject/cvelistV5/releases
+- https://github.com/CVEProject/cvelistV5/tree/main/cves
+- https://www.cvedetails.com/browse-by-date.php
+- https://www.tenable.com/cve/newest
+- https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+- https://blog.qualys.com/vulnerabilities-threat-research
+
+0-day tags:
+- https://packetstormsecurity.com/news/tags/zero_day/
+
+Receiving notifications of GitHub releases:
+- https://stackoverflow.com/a/49350626
+- https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications
+
+CNA List:
+- https://www.cve.org/ProgramOrganization/CNAs
 
 EoL references:
 - https://endoflife.date/
@@ -34,12 +52,27 @@ Vulnerability databases
 - https://security.snyk.io/
 
 CVE sites:
+- https://github.com/CVEProject
+- https://cveproject.github.io/
 - https://cve.mitre.org/
+
+VPR:
+- https://docs.tenable.com/nessus/Content/RiskMetrics.htm
+
+CVSS:
+- https://www.first.org/cvss/v4-0/
+- https://www.first.org/cvss/v3-1/
+- https://www.first.org/cvss/v3-0/
+- https://www.first.org/cvss/v2/
+- https://www.first.org/cvss/v1/
 
 Vulnerability references:
 - https://msrc.microsoft.com/update-guide/vulnerability
 - https://ubuntu.com/security/cves
 - https://access.redhat.com/security/vulnerabilities
+
+Vulnerabilitiy misc:
+- https://packetstormsecurity.com/
 
 Security Advisories and Update Guides:
 - https://learn.microsoft.com/en-us/security-updates/securitybulletins/securitybulletins
@@ -53,7 +86,7 @@ Security Advisories and Update Guides:
 - https://sec.cloudapps.cisco.com/security/center/publicationListing.x
 - https://www.cisco.com/c/en/us/support/security/identity-services-engine/products-security-advisories-list.html
 
-> **Info**: Security advisories and update guides can be used to find remediations, mitigations, and/or workarounds for specific products. It also details which products and/or software are affected by a specific vulnerability. It is recommended to review the advisories of a vendor when performing vulnerability assessments, penetration tests, red team engagements, or for reporting in general.
+> **Note**: Security advisories and update guides can be used to find remediations, mitigations, and/or workarounds for specific products. It also details which products and/or software are affected by a specific vulnerability. It is recommended to review the advisories of a vendor when performing vulnerability assessments, penetration tests, red team engagements, or for reporting in general.
 
 # Red Team
 
@@ -175,6 +208,7 @@ Development guides:
 Exploit development:
 - https://exploitation.ashemery.com/
 - https://www.corelan.be/
+- https://exploit.courses/#/index
 
 # Evasion
 
@@ -227,6 +261,7 @@ Collection of cheat sheets:
 # Articles / Blogs
 
 Nice blogs to read:
+- https://www.zerodayinitiative.com/blog/
 - https://atomicredteam.io/
 - https://blog.whiteflag.io/
 - https://specterops.io/blog/
@@ -259,6 +294,14 @@ Nice blogs to read:
 - https://redsiege.com/red-siege-blog/
 - https://www.hackthebox.com/blog/
 - https://xacone.github.io/
+
+Websites about news:
+- https://packetstormsecurity.com/news/
+- https://arstechnica.com/
+- https://www.theregister.com/
+- https://www.scmagazine.com/
+- https://thehackernews.com/
+- https://www.securityweek.com/
 
 Nice articles to read:
 - https://zer1t0.gitlab.io/posts/attacking_ad/
