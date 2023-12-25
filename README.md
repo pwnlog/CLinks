@@ -2,7 +2,7 @@
 
 A collection of sites related to cybersecurity.
 
-# Vulnerable Environments
+# Practice Environments
 
 Practice in vulnerable labs:
 - https://github.com/kaiiyer/awesome-vulnerable
@@ -14,6 +14,22 @@ Learn about vulnerable code:
 - https://github.com/yeswehack/vulnerable-code-snippets
 - https://github.com/Yavuzlar/VulnLab
 - https://github.com/digininja/DVWA
+
+# Documents
+
+RFC:
+- https://www.rfc-editor.org/
+- https://datatracker.ietf.org/
+
+Documentations:
+- https://learn.microsoft.com/en-us/docs/
+- https://www.cisco.com/c/en/us/support/index.html
+- https://www.dell.com/support/kbdoc/en-us/000133505/manuals-and-documentation-for-your-dell-product
+
+Knowledge Base:
+- https://support.microsoft.com/en-us/topic/how-to-query-the-microsoft-knowledge-base-by-using-keywords-and-query-words-1f39ec6a-edc7-e3dd-d265-77270160bfc6
+- https://kb.vmware.com/s/
+- https://www.veeam.com/knowledge-base.html
 
 # Vulnerabilities
 
@@ -40,9 +56,10 @@ EoL references:
 - https://learn.microsoft.com/en-us/lifecycle/
 - https://access.redhat.com/product-life-cycles
 
-Exploit databases:
+Exploit sites:
 - https://www.exploit-db.com/
 - https://www.rapid7.com/db/
+- https://packetstormsecurity.com/files/tags/exploit/
 
 PoC collections:
 - https://github.com/trickest/cve
@@ -71,8 +88,10 @@ Vulnerability references:
 - https://ubuntu.com/security/cves
 - https://access.redhat.com/security/vulnerabilities
 
-Vulnerabilitiy misc:
-- https://packetstormsecurity.com/
+Vulnerability files:
+- https://packetstormsecurity.com/files/
+
+# Patching Vulnerabilities
 
 Security Advisories and Update Guides:
 - https://learn.microsoft.com/en-us/security-updates/securitybulletins/securitybulletins
@@ -86,7 +105,33 @@ Security Advisories and Update Guides:
 - https://sec.cloudapps.cisco.com/security/center/publicationListing.x
 - https://www.cisco.com/c/en/us/support/security/identity-services-engine/products-security-advisories-list.html
 
-> **Note**: Security advisories and update guides can be used to find remediations, mitigations, and/or workarounds for specific products. It also details which products and/or software are affected by a specific vulnerability. It is recommended to review the advisories of a vendor when performing vulnerability assessments, penetration tests, red team engagements, or for reporting in general.
+> **Note**: Security advisories and update guides can be used to find remediations, mitigations, and/or workarounds for specific products and/or software. It also details which products and/or software are affected by a specific vulnerability. It is recommended to review the advisories of a vendor when performing vulnerability assessments, penetration tests, red team engagements, or for reporting in general.
+
+Microsoft Update Catalog:
+- https://www.catalog.update.microsoft.com/home.aspx
+
+Microsoft Update Definitions:
+- https://learn.microsoft.com/en-us/troubleshoot/windows-client/deployment/standard-terminology-software-updates
+
+Microsoft KB (example):
+- https://support.microsoft.com/en-us/topic/december-12-2023-kb5033375-os-builds-22621-2861-and-22631-2861-90f983aa-efb6-4caa-9cab-7e5cfa00ed36
+
+Microsoft CU Updates (replaces previous KBs):
+- https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate24
+
+Which KBs are replaced in a Microsoft CU update?
+1. Search the CU update KB in the Microsoft Update Catalog website: https://www.catalog.update.microsoft.com/Search.aspx?q=KB5031908%20
+2. Click on the hyperlink of KB "Title" column
+3. In the Update Details window, click on the Package Details tab.
+4. View the text box that has the label ("This update replaces the following updates:")
+
+Screenshot of Update ID (879575bc-c874-401f-af6f-51bf373427b7):
+
+![Microsoft CU Update](img/microsoft-cu-update.png)
+
+Unix/Linux-based Updates:
+- https://ubuntu.com/security/notices
+- https://access.redhat.com/security/security-updates/
 
 # Red Team
 
@@ -104,11 +149,13 @@ Red team tactics:
 - https://github.com/LuemmelSec/Pentest-Tools-Collection#obfuscation
 - https://github.com/RistBS/Awesome-RedTeam-Cheatsheet
 - https://github.com/h3ll0clar1c3/CRTO
+- https://github.com/J0hnbX/RedTeam-Resources
 
 Practice Red Team Ops:
 - https://github.com/WesleyWong420/RedTeamOps-Havoc-101
 
 OPSEC:
+- https://github.com/WesleyWong420/OPSEC-Tradecraft
 - https://labs.nettitude.com/blog/creating-an-opsec-safe-loader-for-red-team-operations/
 - https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap
 
@@ -145,6 +192,19 @@ Blue team tactics:
 - https://github.com/InQuest/awesome-yara
 - https://github.com/cugu/awesome-forensics
 - https://github.com/kai5263499/container-security-awesome 
+- https://github.com/sroberts/awesome-iocs
+- https://github.com/meirwah/awesome-incident-response
+- https://github.com/tylerha97/awesome-reversing
+- https://github.com/cyb3rxp/awesome-soc
+- https://github.com/nasbench/SIGMA-Resources
+
+SIGMA:
+- https://github.com/SigmaHQ/sigma
+- https://github.com/SigmaHQ/pySigma
+
+Yara:
+- https://github.com/Yara-Rules/rules
+- https://yara-rules.github.io/blog/
 
 Parkerian Hexad:
 - https://en.wikipedia.org/wiki/Parkerian_Hexad
@@ -159,6 +219,7 @@ Sysmon references:
 # Security Advisories
 
 Keep up to date with security advisories:
+- https://packetstormsecurity.com/files/tags/advisory/
 - https://www.cisa.gov/news-events/cybersecurity-advisories
 - https://technet.microsoft.com/security/advisory
 - https://www.sophos.com/en-us/security-advisories
@@ -178,20 +239,43 @@ Security Baselines:
 - https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines
 - https://techcommunity.microsoft.com/t5/microsoft-security-baselines/bg-p/Microsoft-Security-Baselines
 
+Assessment and Auditing Tools:
+- https://www.nist.gov/cyberframework/assessment-auditing-resources
+- https://github.com/CISOfy/lynis
+
 Cybersecurity evaluation tools:
 - CISA CSET: https://www.cisa.gov/downloading-and-installing-cset
 
-Compliance toolkits:
+Compliance tools:
 - https://www.microsoft.com/en-us/download/details.aspx?id=55319
 - https://ubuntu.com/security/certifications/docs/16-18/cis/compliance
+- https://github.com/Microsoft/PowerStig/wiki/
+- https://public.cyber.mil/stigs/stig-viewing-tools/
 
 Compliance CSF references:
 - https://csf.tools/reference/nist-cybersecurity-framework/v1-1/
 - https://csf.tools/reference/nist-sp-800-53/
 
 Official NIST framework publications:
+- Cybersecurity Framework: https://www.nist.gov/cyberframework
 - NIST 800-171: https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final
 - NIST 800-53: https://csrc.nist.gov/publications/detail/sp/800-53/rev-4/final
+
+Official DISA STIG:
+- https://public.cyber.mil/stigs/
+
+DISA STIG:
+- https://www.titania.com/resources/guides/disa-stig-compliance-explained
+- https://stigviewer.com/stigs
+
+Compliance documents:
+- https://stigviewer.com/
+
+# Risk Management
+
+NIST:
+- https://www.nist.gov/risk-management
+- https://github.com/cingulara/openrmf-docs/
 
 # Secure Coding
 
@@ -202,6 +286,11 @@ Secure coding articles:
 
 Development guides:
 - https://github.com/cisagov/development-guide
+
+# Web Security
+
+Web General:
+- https://github.com/EdOverflow/bugbounty-cheatsheet/tree/master
 
 # Exploit Development
 
@@ -258,9 +347,10 @@ Collection of cheat sheets:
 - https://github.com/We5ter/Scanners-Box
 - https://github.com/sinfulz/JustEvadeBro
 
-# Articles / Blogs
+# Website Articles / Blogs
 
-Nice blogs to read:
+Nice websites to read:
+- https://packetstormsecurity.com/
 - https://www.zerodayinitiative.com/blog/
 - https://atomicredteam.io/
 - https://blog.whiteflag.io/
@@ -321,6 +411,15 @@ Collection of mindmaps:
 - https://www.amanhardikar.com/mindmaps/Practice.html
 - https://orange-cyberdefense.github.io/ocd-mindmaps/
 
+# Whitepapers
+
+Whitepapers:
+- https://packetstormsecurity.com/files/tags/paper/
+- https://www.giac.org/research-papers/
+- https://www.sans.org/white-papers/
+- https://www.cisecurity.org/insights/white-papers
+- https://csrc.nist.gov/publications/cswp
+
 # Reporting
 
 Reporting software:
@@ -329,3 +428,12 @@ Reporting software:
 Report templates:
 - https://github.com/Syslifters/HackTheBox-Reporting
 - https://github.com/Syslifters/OffSec-Reporting
+
+# Reporting Vulnerabilities
+
+RFC 9116:
+- https://www.rfc-editor.org/rfc/rfc9116
+
+Bug Bounty reporting:
+- https://docs.hackerone.com/en/articles/8473994-submitting-reports
+- https://docs.bugcrowd.com/researchers/reporting-managing-submissions/reporting-a-bug/
