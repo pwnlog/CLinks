@@ -1,4 +1,4 @@
-# Centra Cyber
+# Centra
 
 A collection of sites related to cybersecurity.
 
@@ -313,8 +313,11 @@ Collection of notes:
 - https://book.redteamguides.com/
 - https://book.hacktricks.xyz/welcome/readme
 - https://github.com/swisskyrepo/PayloadsAllTheThings
+- https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/
 - https://github.com/swisskyrepo/InternalAllTheThings
+- https://swisskyrepo.github.io/InternalAllTheThings/
 - https://github.com/swisskyrepo/HardwareAllTheThings
+- https://swisskyrepo.github.io/HardwareAllTheThings/
 - https://www.thehacker.recipes/
 - https://www.ired.team/
 - https://ppn.snovvcrash.rocks/
