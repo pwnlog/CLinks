@@ -313,6 +313,8 @@ Collection of notes:
 - https://book.redteamguides.com/
 - https://book.hacktricks.xyz/welcome/readme
 - https://github.com/swisskyrepo/PayloadsAllTheThings
+- https://github.com/swisskyrepo/InternalAllTheThings
+- https://github.com/swisskyrepo/HardwareAllTheThings
 - https://www.thehacker.recipes/
 - https://www.ired.team/
 - https://ppn.snovvcrash.rocks/
