@@ -156,6 +156,7 @@ Practice Red Team Ops:
 
 OPSEC:
 - https://github.com/WesleyWong420/OPSEC-Tradecraft
+- https://github.com/Lissy93/personal-security-checklist
 - https://labs.nettitude.com/blog/creating-an-opsec-safe-loader-for-red-team-operations/
 - https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap
 
@@ -389,6 +390,11 @@ Nice websites to read:
 - https://redsiege.com/red-siege-blog/
 - https://www.hackthebox.com/blog/
 - https://xacone.github.io/
+- https://blog.redteam-pentesting.de/
+- https://ipurple.team/
+- https://sec-consult.com/blog/
+- https://redfoxsec.com/blog/
+- https://labs.nettitude.com/blog/
 
 Websites about news:
 - https://packetstormsecurity.com/news/
