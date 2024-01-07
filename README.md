@@ -303,6 +303,15 @@ Exploit development:
 # Evasion
 
 Bypass AV/EDR/MDR/XDR software:
+- https://avred.r00ted.ch/
+- https://github.com/dobin/avred
+- https://github.com/netero1010/EDRSilencer
+- https://github.com/myzxcg/RealBlindingEDR
+- https://github.com/wavestone-cdt/EDRSandblast
+- https://github.com/klezVirus/inceptor/
+
+Bypass AV/EDR/MDR/XDR articles:
+- https://book.hacktricks.xyz/windows-hardening/av-bypass
 - https://xacone.github.io/custom_shellcode.html
 - https://s3cur3th1ssh1t.github.io/A-tale-of-EDR-bypass-methods/
 - https://luemmelsec.github.io/Circumventing-Countermeasures-In-AD/
@@ -395,6 +404,10 @@ Nice websites to read:
 - https://sec-consult.com/blog/
 - https://redfoxsec.com/blog/
 - https://labs.nettitude.com/blog/
+- https://www.netero1010-securitylab.com/
+- https://cymulate.com/blog/
+- https://synzack.github.io/
+- https://frischkorn-nicholas.medium.com/
 
 Websites about news:
 - https://packetstormsecurity.com/news/
@@ -413,6 +426,8 @@ Nice articles to read:
 - https://offsec.almond.consulting/authenticating-with-certificates-when-pkinit-is-not-supported.html
 - https://offsec.almond.consulting/ldap-authentication-in-active-directory-environments.html
 - https://luemmelsec.github.io/Pentest-Everything-SMTP/
+- https://synzack.github.io/Blinding-EDR-On-Windows/
+- https://frischkorn-nicholas.medium.com/windows-evasion-edrs-shellcode-loaders-e57db92de630
 
 # Mindmaps
 
@@ -430,6 +445,7 @@ Whitepapers:
 - https://www.sans.org/white-papers/
 - https://www.cisecurity.org/insights/white-papers
 - https://csrc.nist.gov/publications/cswp
+- https://www.crowdstrike.com/resources/white-papers/
 
 # Reporting
 
