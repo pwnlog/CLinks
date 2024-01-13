@@ -152,6 +152,7 @@ Red team tactics:
 - https://github.com/J0hnbX/RedTeam-Resources
 
 Practice Red Team Ops:
+- https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 - https://github.com/WesleyWong420/RedTeamOps-Havoc-101
 
 OPSEC:
@@ -227,6 +228,9 @@ Keep up to date with security advisories:
 
 # Hardening and Compliance
 
+Projects:
+- https://github.com/decalage2/awesome-security-hardening
+
 Implement hardening in infrastructure:
 - https://github.com/decalage2/awesome-security-hardening
 - https://www.cisecurity.org/cis-benchmarks
@@ -239,6 +243,50 @@ Zero trust:
 Security Baselines:
 - https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines
 - https://techcommunity.microsoft.com/t5/microsoft-security-baselines/bg-p/Microsoft-Security-Baselines
+
+Microsoft based security:
+* [Security baseline (FINAL): Windows 10 and Windows Server, version 2004](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-final-windows-10-and-windows-server-version/ba-p/1543631)
+* [Security baseline for Windows 10, version 21H2](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-windows-10-version-21h2/ba-p/3042703)
+* [Windows Server 2022 Security Baseline](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/windows-server-2022-security-baseline/ba-p/2724685)
+* [Windows 11 Security baseline](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/windows-11-security-baseline/ba-p/2810772)
+* [Windows 11, version 22H2 Security baseline](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/windows-11-version-22h2-security-baseline/ba-p/3632520)
+* [Windows 11, version 23H2 security baseline](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/windows-11-version-23h2-security-baseline/ba-p/3967618)
+* [Kernel DMA Protection for Thunderbolt 3](https://docs.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt)
+* [BitLocker Countermeasures](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-countermeasures)
+* [Blocking the SBP-2 driver and Thunderbolt controllers to reduce 1394 DMA and Thunderbolt DMA threats to BitLocker](https://support.microsoft.com/en-us/help/2516445/blocking-the-sbp-2-driver-and-thunderbolt-controllers-to-reduce-1394-d)
+* [Manage Windows Defender Credential Guard](https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage)
+* [Reduce attack surfaces with attack surface reduction rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction)
+* [Configuring Additional LSA Protection](https://docs.microsoft.com/en-us/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection)
+* [Securely opening Microsoft Office documents that contain Dynamic Data Exchange (DDE) fields](https://docs.microsoft.com/en-us/security-updates/securityadvisories/2017/4053440)
+* [DDE registry settings](https://gist.githubusercontent.com/wdormann/732bb88d9b5dd5a66c9f1e1498f31a1b/raw/69c9d9d14b386d8f178e59a046804501ec1ee304/disable_ddeauto.reg)
+* [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)
+* [SwiftOnSecurity/sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config)
+* [Dane Stuckey - @cryps1s Endpoint Isolation with the Windows Firewall](https://medium.com/@cryps1s/endpoint-isolation-with-the-windows-firewall-462a795f4cfb)
+* [Microsoft Security Compliance Toolkit 1.0](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
+* [Policy Analyzer](https://blogs.technet.microsoft.com/secguide/2016/01/22/new-tool-policy-analyzer/)
+* [Security baseline for Office 365 ProPlus (v1908, Sept 2019) - FINAL](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-office-365-proplus-v1908-sept-2019-final/ba-p/873084)
+* [Security baseline for Microsoft 365 Apps for enterprise v2104 - FINAL](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-microsoft-365-apps-for-enterprise-v2104/ba-p/2307695)
+* [Security baseline for Microsoft 365 Apps for enterprise v2106 - FINAL](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-microsoft-365-apps-for-enterprise-v2106/ba-p/2492355)
+* [Security baseline for Microsoft 365 Apps for enterprise, v2112](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-microsoft-365-apps-for-enterprise-v2112/ba-p/3038172)
+* [Security baseline for Microsoft 365 Apps for enterprise v2206](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-m365-apps-for-enterprise-v2306/ba-p/3858702)
+* [Security baseline for Microsoft 365 Apps for enterprise v2306](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-m365-apps-for-enterprise-v2306/ba-p/3858702)
+* [Security baseline for Microsoft 365 Apps for enterprise v2312](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-review-for-m365-apps-for-enterprise-v2312/ba-p/4009591)
+* [Microsoft Edge - Policies](https://docs.microsoft.com/en-us/DeployEdge/microsoft-edge-policies)
+* [A hint for Office 365 Telemetry](https://twitter.com/milenkowski/status/1326865844215934979)
+* [BSI: Microsoft Office Telemetry Analysis report](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Office_Telemetrie/Office_Telemetrie.pdf?__blob=publicationFile&v=5)
+* [Use policy settings to manage privacy controls for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/en-us/deployoffice/privacy/manage-privacy-controls)
+* [DoD Cyber Exchange Public - Security Technical Implementation Guides (STIGs) - Group Policy Objects](https://public.cyber.mil/stigs/gpo/)
+* [BSI SiSyPHuS Win10: Windows 10 Hardening Guideline](https://www.bsi.bund.de/EN/Topics/Cyber-Security/Recommendations/SiSyPHuS_Win10/AP11/SiSyPHuS_AP11.html)
+* [Setup Microsoft Windows or IIS for SSL Perfect Forward Secrecy and TLS 1.2](https://www.hass.de/content/setup-microsoft-windows-or-iis-ssl-perfect-forward-secrecy-and-tls-12)
+* [Nartac Software - IIS Crypto](https://www.nartac.com/Products/IISCrypto/)
+* [Transport Layer Security (TLS) best practices with the .NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/tls)
+* [TLS Cipher Suites in Windows Server 2022](https://docs.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-server-2022)
+* [Transport Layer Security (TLS) registry settings](https://docs.microsoft.com/en-us/windows-server/security/tls/tls-registry-settings)
+* [Windows Defender Antivirus can now run in a sandbox](https://www.microsoft.com/security/blog/2018/10/26/windows-defender-antivirus-can-now-run-in-a-sandbox/)
+* [KB5005010: Restricting installation of new printer drivers after applying the July 6, 2021 updates](https://support.microsoft.com/en-us/topic/kb5005010-restricting-installation-of-new-printer-drivers-after-applying-the-july-6-2021-updates-31b91c02-05bc-4ada-a7ea-183b129578a7)
+* [admx.help - Group Policy Administrative Templates Catalog](https://admx.help/)
+* [How to Defend Users from Interception Attacks via SMB Client Defense](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-defend-users-from-interception-attacks-via-smb-client/ba-p/1494995)
+* [Migrating from Windows PowerShell 5.1 to PowerShell 7](https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7)
 
 Assessment and Auditing Tools:
 - https://www.nist.gov/cyberframework/assessment-auditing-resources
@@ -316,6 +364,7 @@ Bypass AV/EDR/MDR/XDR articles:
 - https://s3cur3th1ssh1t.github.io/A-tale-of-EDR-bypass-methods/
 - https://luemmelsec.github.io/Circumventing-Countermeasures-In-AD/
 - https://blog.scrt.ch/category/antivirus/
+- https://blog.xpnsec.com/anti-debug-openprocess/
 
 # Notes
 
@@ -408,6 +457,10 @@ Nice websites to read:
 - https://cymulate.com/blog/
 - https://synzack.github.io/
 - https://frischkorn-nicholas.medium.com/
+- https://douggemhax.wordpress.com/
+- https://medium.com/@matterpreter
+- https://www.matteomalvica.com/blog
+- https://br-sn.github.io/
 
 Websites about news:
 - https://packetstormsecurity.com/news/
@@ -427,7 +480,10 @@ Nice articles to read:
 - https://offsec.almond.consulting/ldap-authentication-in-active-directory-environments.html
 - https://luemmelsec.github.io/Pentest-Everything-SMTP/
 - https://synzack.github.io/Blinding-EDR-On-Windows/
-- https://frischkorn-nicholas.medium.com/windows-evasion-edrs-shellcode-loaders-e57db92de630
+- https://frischkorn-nicholas.medium.com/windows-evasion-edrs-shellcode-loaders-
+- https://blog.xpnsec.com/lapsv2-internals/
+- https://www.matteomalvica.com/blog/2020/07/15/silencing-the-edr/
+- https://br-sn.github.io/Removing-Kernel-Callbacks-Using-Signed-Drivers/
 
 # Mindmaps
 
