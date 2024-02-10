@@ -15,31 +15,17 @@ Learn about vulnerable code:
 - https://github.com/Yavuzlar/VulnLab
 - https://github.com/digininja/DVWA
 
-# Documents
-
-RFC:
-- https://www.rfc-editor.org/
-- https://datatracker.ietf.org/
-
-Documentations:
-- https://learn.microsoft.com/en-us/docs/
-- https://www.cisco.com/c/en/us/support/index.html
-- https://www.dell.com/support/kbdoc/en-us/000133505/manuals-and-documentation-for-your-dell-product
-
-Knowledge Base:
-- https://support.microsoft.com/en-us/topic/how-to-query-the-microsoft-knowledge-base-by-using-keywords-and-query-words-1f39ec6a-edc7-e3dd-d265-77270160bfc6
-- https://kb.vmware.com/s/
-- https://www.veeam.com/knowledge-base.html
-
 # Vulnerabilities
 
 Latest vulnerabilities:
 - https://github.com/CVEProject/cvelistV5/releases
-- https://github.com/CVEProject/cvelistV5/tree/main/cves
 - https://www.cvedetails.com/browse-by-date.php
 - https://www.tenable.com/cve/newest
-- https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+- https://github.com/projectdiscovery/cvemap
 - https://blog.qualys.com/vulnerabilities-threat-research
+- https://hackerone.com/hacktivity/cve_discovery
+- https://nvd.nist.gov/developers
+- https://www.cisa.gov/known-exploited-vulnerabilities-catalog
 
 0-day tags:
 - https://packetstormsecurity.com/news/tags/zero_day/
@@ -61,8 +47,9 @@ Exploit sites:
 - https://www.rapid7.com/db/
 - https://packetstormsecurity.com/files/tags/exploit/
 
-PoC collections:
+PoC collections (WARNING: Some "PoC" may have malware):
 - https://github.com/trickest/cve
+- https://github.com/nomi-sec/PoC-in-GitHub/
 
 Vulnerability databases
 - https://nvd.nist.gov/vuln
@@ -104,6 +91,11 @@ Security Advisories and Update Guides:
 - https://www.dell.com/support/security/en-us
 - https://sec.cloudapps.cisco.com/security/center/publicationListing.x
 - https://www.cisco.com/c/en/us/support/security/identity-services-engine/products-security-advisories-list.html
+- https://packetstormsecurity.com/files/tags/advisory/
+- https://www.cisa.gov/news-events/cybersecurity-advisories
+- https://technet.microsoft.com/security/advisory
+- https://www.sophos.com/en-us/security-advisories
+
 
 > **Note**: Security advisories and update guides can be used to find remediations, mitigations, and/or workarounds for specific products and/or software. It also details which products and/or software are affected by a specific vulnerability. It is recommended to review the advisories of a vendor when performing vulnerability assessments, penetration tests, red team engagements, or for reporting in general.
 
@@ -211,20 +203,13 @@ Yara:
 Parkerian Hexad:
 - https://en.wikipedia.org/wiki/Parkerian_Hexad
 
-Windows logs references:
+Logs references:
+- https://www.rfc-editor.org/rfc/rfc5424
 - https://www.ultimatewindowssecurity.com/
 
 Sysmon references:
 - https://github.com/SwiftOnSecurity/sysmon-config
 - https://www.youtube.com/watch?v=kESndPO5Fig&list=PLk-dPXV5k8SG26OTeiiF3EIEoK4ignai7
-
-# Security Advisories
-
-Keep up to date with security advisories:
-- https://packetstormsecurity.com/files/tags/advisory/
-- https://www.cisa.gov/news-events/cybersecurity-advisories
-- https://technet.microsoft.com/security/advisory
-- https://www.sophos.com/en-us/security-advisories
 
 # Hardening and Compliance
 
@@ -239,54 +224,12 @@ Implement hardening in infrastructure:
 
 Zero trust:
 - https://www.microsoft.com/en-us/security/business/zero-trust
+- https://csrc.nist.gov/pubs/sp/800/207/final
+- https://csrc.nist.gov/pubs/sp/1800/35/3prd
 
 Security Baselines:
 - https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines
 - https://techcommunity.microsoft.com/t5/microsoft-security-baselines/bg-p/Microsoft-Security-Baselines
-
-Microsoft based security:
-* [Security baseline (FINAL): Windows 10 and Windows Server, version 2004](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-final-windows-10-and-windows-server-version/ba-p/1543631)
-* [Security baseline for Windows 10, version 21H2](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-windows-10-version-21h2/ba-p/3042703)
-* [Windows Server 2022 Security Baseline](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/windows-server-2022-security-baseline/ba-p/2724685)
-* [Windows 11 Security baseline](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/windows-11-security-baseline/ba-p/2810772)
-* [Windows 11, version 22H2 Security baseline](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/windows-11-version-22h2-security-baseline/ba-p/3632520)
-* [Windows 11, version 23H2 security baseline](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/windows-11-version-23h2-security-baseline/ba-p/3967618)
-* [Kernel DMA Protection for Thunderbolt 3](https://docs.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt)
-* [BitLocker Countermeasures](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-countermeasures)
-* [Blocking the SBP-2 driver and Thunderbolt controllers to reduce 1394 DMA and Thunderbolt DMA threats to BitLocker](https://support.microsoft.com/en-us/help/2516445/blocking-the-sbp-2-driver-and-thunderbolt-controllers-to-reduce-1394-d)
-* [Manage Windows Defender Credential Guard](https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage)
-* [Reduce attack surfaces with attack surface reduction rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction)
-* [Configuring Additional LSA Protection](https://docs.microsoft.com/en-us/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection)
-* [Securely opening Microsoft Office documents that contain Dynamic Data Exchange (DDE) fields](https://docs.microsoft.com/en-us/security-updates/securityadvisories/2017/4053440)
-* [DDE registry settings](https://gist.githubusercontent.com/wdormann/732bb88d9b5dd5a66c9f1e1498f31a1b/raw/69c9d9d14b386d8f178e59a046804501ec1ee304/disable_ddeauto.reg)
-* [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)
-* [SwiftOnSecurity/sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config)
-* [Dane Stuckey - @cryps1s Endpoint Isolation with the Windows Firewall](https://medium.com/@cryps1s/endpoint-isolation-with-the-windows-firewall-462a795f4cfb)
-* [Microsoft Security Compliance Toolkit 1.0](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
-* [Policy Analyzer](https://blogs.technet.microsoft.com/secguide/2016/01/22/new-tool-policy-analyzer/)
-* [Security baseline for Office 365 ProPlus (v1908, Sept 2019) - FINAL](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-office-365-proplus-v1908-sept-2019-final/ba-p/873084)
-* [Security baseline for Microsoft 365 Apps for enterprise v2104 - FINAL](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-microsoft-365-apps-for-enterprise-v2104/ba-p/2307695)
-* [Security baseline for Microsoft 365 Apps for enterprise v2106 - FINAL](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-microsoft-365-apps-for-enterprise-v2106/ba-p/2492355)
-* [Security baseline for Microsoft 365 Apps for enterprise, v2112](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-microsoft-365-apps-for-enterprise-v2112/ba-p/3038172)
-* [Security baseline for Microsoft 365 Apps for enterprise v2206](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-m365-apps-for-enterprise-v2306/ba-p/3858702)
-* [Security baseline for Microsoft 365 Apps for enterprise v2306](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-baseline-for-m365-apps-for-enterprise-v2306/ba-p/3858702)
-* [Security baseline for Microsoft 365 Apps for enterprise v2312](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/security-review-for-m365-apps-for-enterprise-v2312/ba-p/4009591)
-* [Microsoft Edge - Policies](https://docs.microsoft.com/en-us/DeployEdge/microsoft-edge-policies)
-* [A hint for Office 365 Telemetry](https://twitter.com/milenkowski/status/1326865844215934979)
-* [BSI: Microsoft Office Telemetry Analysis report](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Office_Telemetrie/Office_Telemetrie.pdf?__blob=publicationFile&v=5)
-* [Use policy settings to manage privacy controls for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/en-us/deployoffice/privacy/manage-privacy-controls)
-* [DoD Cyber Exchange Public - Security Technical Implementation Guides (STIGs) - Group Policy Objects](https://public.cyber.mil/stigs/gpo/)
-* [BSI SiSyPHuS Win10: Windows 10 Hardening Guideline](https://www.bsi.bund.de/EN/Topics/Cyber-Security/Recommendations/SiSyPHuS_Win10/AP11/SiSyPHuS_AP11.html)
-* [Setup Microsoft Windows or IIS for SSL Perfect Forward Secrecy and TLS 1.2](https://www.hass.de/content/setup-microsoft-windows-or-iis-ssl-perfect-forward-secrecy-and-tls-12)
-* [Nartac Software - IIS Crypto](https://www.nartac.com/Products/IISCrypto/)
-* [Transport Layer Security (TLS) best practices with the .NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/tls)
-* [TLS Cipher Suites in Windows Server 2022](https://docs.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-server-2022)
-* [Transport Layer Security (TLS) registry settings](https://docs.microsoft.com/en-us/windows-server/security/tls/tls-registry-settings)
-* [Windows Defender Antivirus can now run in a sandbox](https://www.microsoft.com/security/blog/2018/10/26/windows-defender-antivirus-can-now-run-in-a-sandbox/)
-* [KB5005010: Restricting installation of new printer drivers after applying the July 6, 2021 updates](https://support.microsoft.com/en-us/topic/kb5005010-restricting-installation-of-new-printer-drivers-after-applying-the-july-6-2021-updates-31b91c02-05bc-4ada-a7ea-183b129578a7)
-* [admx.help - Group Policy Administrative Templates Catalog](https://admx.help/)
-* [How to Defend Users from Interception Attacks via SMB Client Defense](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-defend-users-from-interception-attacks-via-smb-client/ba-p/1494995)
-* [Migrating from Windows PowerShell 5.1 to PowerShell 7](https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7)
 
 Assessment and Auditing Tools:
 - https://www.nist.gov/cyberframework/assessment-auditing-resources
@@ -294,6 +237,7 @@ Assessment and Auditing Tools:
 
 Cybersecurity evaluation tools:
 - CISA CSET: https://www.cisa.gov/downloading-and-installing-cset
+- HIPAA: https://www.healthit.gov/topic/privacy-security-and-hipaa/security-risk-assessment-tool
 
 Compliance tools:
 - https://www.microsoft.com/en-us/download/details.aspx?id=55319
@@ -305,26 +249,52 @@ Compliance CSF references:
 - https://csf.tools/reference/nist-cybersecurity-framework/v1-1/
 - https://csf.tools/reference/nist-sp-800-53/
 
-Official NIST framework publications:
-- Cybersecurity Framework: https://www.nist.gov/cyberframework
-- NIST 800-171: https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final
-- NIST 800-53: https://csrc.nist.gov/publications/detail/sp/800-53/rev-4/final
+Compliance Frameworks:
+- PCI-DSS: https://www.pcisecuritystandards.org/
+- HIPAA: https://www.hhs.gov/hipaa/for-professionals/index.html
+- ISO: https://www.iso.org/home.html
+- NIST: https://www.nist.gov/
+- Other: https://www.rapid7.com/fundamentals/compliance-regulatory-frameworks/
 
-Official DISA STIG:
-- https://public.cyber.mil/stigs/
+NIST framework publications:
+- Cybersecurity Framework: https://www.nist.gov/cyberframework
+- NIST 800-171: https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final
+- NIST 800-53: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
+
+NIST Computer Security Resource Center (CSRC):
+- https://csrc.nist.gov/
+
+NIST CSRC FIPS:
+- https://csrc.nist.gov/publications/fips
+
+NIST CSRC SP:
+- https://csrc.nist.gov/publications/sp
+
+CIS:
+- https://www.cisecurity.org
+
+SCuBA:
+- https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project
+- https://github.com/cisagov/ScubaGear
 
 DISA STIG:
-- https://www.titania.com/resources/guides/disa-stig-compliance-explained
-- https://stigviewer.com/stigs
+- https://public.cyber.mil/stigs/
 
 Compliance documents:
 - https://stigviewer.com/
 
-# Risk Management
-
-NIST:
+Risk Management:
 - https://www.nist.gov/risk-management
+- https://csrc.nist.gov/pubs/sp/800/39/final
 - https://github.com/cingulara/openrmf-docs/
+
+# Reverse Engineering
+
+Reversing:
+- https://github.com/HACKE-RC/awesome-reversing
+- https://github.com/mytechnotalent/Reverse-Engineering
+- https://0xinfection.github.io/reversing/
+- https://guyinatuxedo.github.io/index.html
 
 # Secure Coding
 
@@ -365,6 +335,10 @@ Bypass AV/EDR/MDR/XDR articles:
 - https://luemmelsec.github.io/Circumventing-Countermeasures-In-AD/
 - https://blog.scrt.ch/category/antivirus/
 - https://blog.xpnsec.com/anti-debug-openprocess/
+- https://medium.com/@0xHossam
+
+Bypass AV/EDR/MDR/XDR learning:
+- https://github.com/reveng007/Learning-EDR-and-EDR_Evasion
 
 # Notes
 
@@ -461,6 +435,7 @@ Nice websites to read:
 - https://medium.com/@matterpreter
 - https://www.matteomalvica.com/blog
 - https://br-sn.github.io/
+- https://de-engineer.github.io/
 
 Websites about news:
 - https://packetstormsecurity.com/news/
@@ -517,6 +492,14 @@ Report templates:
 RFC 9116:
 - https://www.rfc-editor.org/rfc/rfc9116
 
-Bug Bounty reporting:
+Vulnerability reporting:
 - https://docs.hackerone.com/en/articles/8473994-submitting-reports
 - https://docs.bugcrowd.com/researchers/reporting-managing-submissions/reporting-a-bug/
+
+CVE Process:
+- https://nvd.nist.gov/general/cve-process
+- https://cve.mitre.org/CVEIDsAndHowToGetThem.pdf
+- https://cveproject.github.io/docs/content/key-details-phrasing.pdf
+
+CNA:
+- https://www.cve.org/PartnerInformation/ListofPartners
