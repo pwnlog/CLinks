@@ -95,6 +95,8 @@ Security Advisories and Update Guides:
 - https://www.cisa.gov/news-events/cybersecurity-advisories
 - https://technet.microsoft.com/security/advisory
 - https://www.sophos.com/en-us/security-advisories
+- https://www.fortiguard.com/psirt
+- https://security.paloaltonetworks.com/
 
 
 > **Note**: Security advisories and update guides can be used to find remediations, mitigations, and/or workarounds for specific products and/or software. It also details which products and/or software are affected by a specific vulnerability. It is recommended to review the advisories of a vendor when performing vulnerability assessments, penetration tests, red team engagements, or for reporting in general.
@@ -340,6 +342,29 @@ Bypass AV/EDR/MDR/XDR articles:
 Bypass AV/EDR/MDR/XDR learning:
 - https://github.com/reveng007/Learning-EDR-and-EDR_Evasion
 
+# Living Off The Land
+
+LOL:
+- https://lolol.farm/
+- https://br0k3nlab.com/LoFP/
+- https://loldrivers.io/
+- https://gtfobins.github.io/
+- https://lolbas-project.github.io/
+- https://lots-project.com/
+- https://filesec.io/
+- https://malapi.io/
+- https://hijacklibs.net/
+- https://wadcoms.github.io/
+- https://www.loobins.io/
+- https://lolapps-project.github.io/
+- https://www.bootloaders.io/
+- https://www.mandiant.com/resources/blog/bring-your-own-land-novel-red-teaming-technique
+- https://lothardware.com.tr/
+- https://wtfbins.wtf/
+- https://lofl-project.github.io/
+- https://persistence-info.github.io/
+- https://github.com/WithSecureLabs/lolcerts
+
 # Notes
 
 Collection of notes:
@@ -436,6 +461,27 @@ Nice websites to read:
 - https://www.matteomalvica.com/blog
 - https://br-sn.github.io/
 - https://de-engineer.github.io/
+- https://malwaretech.com/
+- https://www.elastic.co/blog/
+
+Nice system administrator websites:
+- https://www.informaticar.net/
+- https://whackasstech.com/
+- https://www.prajwaldesai.com/intune/
+- https://joymalya.com/category/microsoft-intune/
+- https://www.anoopcnair.com/intune/
+- https://www.petervanderwoude.nl/
+- https://4sysops.com/archives/
+- https://adamtheautomator.com/
+- https://www.digitalocean.com/community/tutorials/
+- https://www.thelazyadministrator.com/
+- https://myronhelgering.com/
+
+Recommended read documentations:
+- https://learn.microsoft.com/
+- https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831360(v=ws.11)
+- https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn786436(v=ws.11)
+- https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn786440(v=ws.11)
 
 Websites about news:
 - https://packetstormsecurity.com/news/
