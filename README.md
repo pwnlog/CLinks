@@ -98,7 +98,6 @@ Security Advisories and Update Guides:
 - https://www.fortiguard.com/psirt
 - https://security.paloaltonetworks.com/
 
-
 > **Note**: Security advisories and update guides can be used to find remediations, mitigations, and/or workarounds for specific products and/or software. It also details which products and/or software are affected by a specific vulnerability. It is recommended to review the advisories of a vendor when performing vulnerability assessments, penetration tests, red team engagements, or for reporting in general.
 
 Microsoft Update Catalog:
@@ -112,12 +111,6 @@ Microsoft KB (example):
 
 Microsoft CU Updates (replaces previous KBs):
 - https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate24
-
-Which KBs are replaced in a Microsoft CU update?
-1. Search the CU update KB in the Microsoft Update Catalog website: https://www.catalog.update.microsoft.com/Search.aspx?q=KB5031908%20
-2. Click on the hyperlink of KB "Title" column
-3. In the Update Details window, click on the Package Details tab.
-4. View the text box that has the label ("This update replaces the following updates:")
 
 Screenshot of Update ID (879575bc-c874-401f-af6f-51bf373427b7):
 
@@ -144,6 +137,7 @@ Red team tactics:
 - https://github.com/RistBS/Awesome-RedTeam-Cheatsheet
 - https://github.com/h3ll0clar1c3/CRTO
 - https://github.com/J0hnbX/RedTeam-Resources
+- https://hacklido.com/t/red-teaming
 
 Practice Red Team Ops:
 - https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
@@ -193,6 +187,8 @@ Blue team tactics:
 - https://github.com/tylerha97/awesome-reversing
 - https://github.com/cyb3rxp/awesome-soc
 - https://github.com/nasbench/SIGMA-Resources
+- https://hacklido.com/t/blue-teaming
+- https://cyberblueteam.medium.com/
 
 SIGMA:
 - https://github.com/SigmaHQ/sigma
@@ -201,6 +197,9 @@ SIGMA:
 Yara:
 - https://github.com/Yara-Rules/rules
 - https://yara-rules.github.io/blog/
+
+XDR Rules:
+- https://learn.microsoft.com/en-us/microsoft-365/security/defender/custom-detection-rules?view=o365-worldwide
 
 Parkerian Hexad:
 - https://en.wikipedia.org/wiki/Parkerian_Hexad
@@ -409,6 +408,7 @@ Collection of cheat sheets:
 - https://github.com/chvancooten/OSEP-Code-Snippets 
 - https://github.com/We5ter/Scanners-Box
 - https://github.com/sinfulz/JustEvadeBro
+- https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
 
 # Website Articles / Blogs
 
