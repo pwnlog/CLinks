@@ -2,6 +2,9 @@
 
 A collection of sites related to cybersecurity.
 
+> [!WARNING]
+> The domains could be changed or compromised over time. You may visit the links at your own risk.
+
 # Practice Environments
 
 Practice in vulnerable labs:
@@ -198,8 +201,17 @@ Yara:
 - https://github.com/Yara-Rules/rules
 - https://yara-rules.github.io/blog/
 
+OSSEC:
+- https://github.com/ossec/ossec-rules/tree/master
+
+Custom Rules:
+- https://documentation.wazuh.com/current/user-manual/ruleset/custom.html
+
 XDR Rules:
 - https://learn.microsoft.com/en-us/microsoft-365/security/defender/custom-detection-rules?view=o365-worldwide
+
+Detection Sites:
+- https://detection.fyi/
 
 Parkerian Hexad:
 - https://en.wikipedia.org/wiki/Parkerian_Hexad
@@ -321,6 +333,87 @@ Exploit development:
 
 # Evasion
 
+Shellcoding:
+- https://axcheron.github.io/linux-shellcode-101-from-hell-to-shell/
+- https://xacone.github.io/custom_shellcode.html
+
+Hiding Stuff:
+- https://attl4s.github.io/assets/pdf/UNDERSTANDING_AND_HIDING_YOUR_OPERATIONS.pdf
+
+Malware Development Basics:
+- https://otterhacker.github.io/Malware/Introduction/0%20-%20Introduction.html
+
+Bypass AV/EDR summary:
+- https://matro7sh.github.io/BypassAV/
+- https://luemmelsec.github.io/Circumventing-Countermeasures-In-AD/
+- https://synzack.github.io/Blinding-EDR-On-Windows/
+- https://s3cur3th1ssh1t.github.io/A-tale-of-EDR-bypass-methods/
+
+Shellcoding:
+- https://xacone.github.io/custom_shellcode.html
+
+Windows API:
+- https://noelit911.github.io/Introduction-to-the-Windows-API/#
+- https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list
+- https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-apisets
+
+Bypass AMSI:
+- https://rxored.github.io/post/csharploader/bypassing-amsi-with-csharp/
+- https://ret2desync.github.io/using-msbuild-bypass-powershell-clm-amsi-scriptlogging/
+- https://icyguider.github.io/2021/07/21/Bypass-AMSI-via-PowerShell-with-Zero-Effort.html
+
+Process Hollowing:
+- https://rxored.github.io/post/malware/process-hollowing/process-hollowing/
+- https://alexfrancow.github.io/red-team/OffensiVe-Security-with-V-2-Process-Hollowing/
+- https://alexfrancow.github.io/red-team/OffensiVe-Security-with-V-Shellcode-Execution/
+- https://alexfrancow.github.io/red-team/OffensiVe-Security-with-V-3-XOR/
+- https://alexfrancow.github.io/red-team/OffensiVe-Security-with-V-4-Caesar/
+
+Under Radar:
+- https://crypt0ace.github.io/posts/Staying-under-the-Radar/
+- https://crypt0ace.github.io/posts/Staying-under-the-Radar-Part-2/
+- https://crypt0ace.github.io/posts/Staying-under-the-Radar-Part-3/
+
+Shellcode Injection:
+- https://noelit911.github.io/Payload-Unleashed-Shellcode-Injection/
+
+COFF Loader:
+- https://otterhacker.github.io/Malware/CoffLoader.html
+
+APC Injection:
+- https://noelit911.github.io/Payload-Unleashed-APC-Injection/
+
+DLL Injection:
+- https://noelit911.github.io/Payload-Unleashed-DLL-Injection/
+- https://skr1x.github.io/reflective-loading-portable-executable-memory/
+- https://xacone.github.io/remote-reflective-dll-injection.html
+- https://otterhacker.github.io/Malware/Remote%20DLL%20Injection.html
+- https://otterhacker.github.io/Malware/Reflective%20DLL%20injection.html
+
+DLL Sideloading:
+- https://github.com/georgesotiriadis/Chimera
+- https://www.redpacketsecurity.com/chimera-automated-dll-sideloading-tool-with-edr-evasion-capabilities/
+- https://www.crowdstrike.com/blog/dll-side-loading-how-to-combat-threat-actor-evasion-techniques/
+
+ETW:
+- https://otterhacker.github.io/Malware/ETW.html
+- https://whiteknightlabs.com/2021/12/11/bypassing-etw-for-fun-and-profit/
+- https://thewover.github.io/Cruller/
+- https://0xstarlight.github.io/posts/Bypassing-Windows-Defender/
+- https://benjitrapp.github.io/attacks/2024-02-11-offensive-etw/
+- https://reprgm.github.io/2023/08/30/lets-make-malware-part-11/
+- https://lougerard.github.io/me/posts/THM-monitoringevasion/
+- https://damonmohammadbagher.github.io/Posts/11Feb2021x.html
+
+Function Hooking:
+- https://otterhacker.github.io/Malware/Function%20hooking.html
+
+Kernel Callback:
+- https://otterhacker.github.io/Malware/Kernel%20callback.html
+
+Module Stomping:
+- https://otterhacker.github.io/Malware/Module%20stomping.html
+
 Bypass AV/EDR/MDR/XDR software:
 - https://avred.r00ted.ch/
 - https://github.com/dobin/avred
@@ -331,8 +424,6 @@ Bypass AV/EDR/MDR/XDR software:
 
 Bypass AV/EDR/MDR/XDR articles:
 - https://book.hacktricks.xyz/windows-hardening/av-bypass
-- https://xacone.github.io/custom_shellcode.html
-- https://s3cur3th1ssh1t.github.io/A-tale-of-EDR-bypass-methods/
 - https://luemmelsec.github.io/Circumventing-Countermeasures-In-AD/
 - https://blog.scrt.ch/category/antivirus/
 - https://blog.xpnsec.com/anti-debug-openprocess/
@@ -463,6 +554,12 @@ Nice websites to read:
 - https://de-engineer.github.io/
 - https://malwaretech.com/
 - https://www.elastic.co/blog/
+- https://rxored.github.io/page/4/
+- https://klezvirus.github.io/
+- https://alexfrancow.github.io/
+- https://crypt0ace.github.io/
+- https://noelit911.github.io/
+- https://attl4s.github.io/
 
 Nice system administrator websites:
 - https://www.informaticar.net/
@@ -488,7 +585,6 @@ Websites about news:
 - https://arstechnica.com/
 - https://www.theregister.com/
 - https://www.scmagazine.com/
-- https://thehackernews.com/
 - https://www.securityweek.com/
 
 Nice articles to read:
