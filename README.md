@@ -5,6 +5,28 @@ A collection of sites related to cybersecurity.
 > [!WARNING]
 > The domains could be changed or compromised over time. You may visit the links at your own risk.
 
+# ToC
+
+- [Practice Environments](#practice-environments)
+- [Vulnerabilities](#vulnerabilities)
+- [Patching Vulnerabilities](#patching-vulnerabilities)
+- [Red Team](#red-team)
+- [Blue Team](#blue-team)
+- [Hardening and Compliance](#hardening-and-compliance)
+- [Reverse Engineering](#reverse-engineering)
+- [Secure Coding](#secure-coding)
+- [Web Security](#web-security)
+- [Exploit Development](#exploit-development)
+- [Evasion](#evasion)
+- [Living Off The Land](#living-off-the-land)
+- [Notes](#notes)
+- [Cheatsheets](#cheatsheets)
+- [Website Articles / Blogs](#website-articles--blogs)
+- [Mindmaps](#mindmaps)
+- [Whitepapers](#whitepapers)
+- [Reporting](#reporting)
+- [Reporting Vulnerabilities](#reporting-vulnerabilities)
+
 # Practice Environments
 
 Practice in vulnerable labs:
@@ -159,13 +181,10 @@ OSINT:
 
 Adversary emulation platforms:
 - https://github.com/mitre/caldera
+- https://github.com/FourCoreLabs/firedrill
+- https://www.encripto.no/en/downloads-2/tools/
 
-Evasion:
-- https://github.com/topics/edr-evasion
-- https://github.com/Xacone/BestEdrOfTheMarket
-
-C2 matrixes:
-- https://docs.google.com/spreadsheets/d/1b4mUxa6cDQuTV2BPC6aA-GR4zGZi0ooPYtBe4IgPsSc/edit#gid=0
+C2 Matrixes:
 - https://howto.thec2matrix.com/
 - https://github.com/outflanknl/C2-Tool-Collection
 
@@ -225,6 +244,9 @@ Sysmon references:
 - https://www.youtube.com/watch?v=kESndPO5Fig&list=PLk-dPXV5k8SG26OTeiiF3EIEoK4ignai7
 
 # Hardening and Compliance
+
+Hardening Papers:
+- https://hdm.io/writing/Mitigating%20Service%20Account%20Credential%20Theft%20on%20Windows.pdf
 
 Projects:
 - https://github.com/decalage2/awesome-security-hardening
@@ -560,6 +582,7 @@ Nice websites to read:
 - https://crypt0ace.github.io/
 - https://noelit911.github.io/
 - https://attl4s.github.io/
+- https://hdm.io/
 
 Nice system administrator websites:
 - https://www.informaticar.net/
