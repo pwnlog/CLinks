@@ -652,6 +652,11 @@ Report templates:
 - https://github.com/Syslifters/HackTheBox-Reporting
 - https://github.com/Syslifters/OffSec-Reporting
 
+Reporting tips:
+- https://www.blackhillsinfosec.com/dos-and-donts-of-pentest-report-writing/
+- https://www.blackhillsinfosec.com/wp-content/uploads/2023/04/SLIDES_BB_Hacking_Reporting_2023-04.pdf
+- https://www.blackhillsinfosec.com/your-reporting-matters-how-to-improve-pen-test-reporting/
+
 # Reporting Vulnerabilities
 
 RFC 9116:
