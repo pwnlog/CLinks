@@ -583,6 +583,7 @@ Nice websites to read:
 - https://noelit911.github.io/
 - https://attl4s.github.io/
 - https://hdm.io/
+- https://osandamalith.com/
 
 Nice system administrator websites:
 - https://www.informaticar.net/
