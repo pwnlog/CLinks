@@ -212,6 +212,13 @@ Blue team tactics:
 - https://hacklido.com/t/blue-teaming
 - https://cyberblueteam.medium.com/
 
+IP Information:
+- https://ipchicken.com/
+- https://ipgeolocation.io/
+
+Email Headers Analysis:
+- https://mxtoolbox.com/
+
 SIGMA:
 - https://github.com/SigmaHQ/sigma
 - https://github.com/SigmaHQ/pySigma
