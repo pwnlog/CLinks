@@ -212,12 +212,16 @@ Blue team tactics:
 - https://hacklido.com/t/blue-teaming
 - https://cyberblueteam.medium.com/
 
+Latest threats:
+- https://threatfeeds.io/
+
 IP Information:
 - https://ipchicken.com/
 - https://ipgeolocation.io/
+- https://www.abuseipdb.com/
 
-Email Headers Analysis:
-- https://mxtoolbox.com/
+URL Information:
+- https://www.urlvoid.com/
 
 SIGMA:
 - https://github.com/SigmaHQ/sigma
@@ -249,6 +253,28 @@ Logs references:
 Sysmon references:
 - https://github.com/SwiftOnSecurity/sysmon-config
 - https://www.youtube.com/watch?v=kESndPO5Fig&list=PLk-dPXV5k8SG26OTeiiF3EIEoK4ignai7
+
+IANA: 
+- https://www.iana.org/domains/root/servers
+
+Email: 
+- https://mxtoolbox.com/
+- https://easydmarc.com/tools/domain-scanner
+
+DNS: 
+- https://viewdns.info/
+- https://dnsdumpster.com/
+- https://dnsspy.io/scan
+- https://dnschecker.org/reverse-dns.php
+- https://www.nslookup.io/
+- https://www.whatsmydns.net/
+- https://hackertarget.com/zone-transfer/
+
+Certificates Information: 
+- https://crt.sh/
+
+Website Information: 
+- https://sitereport.netcraft.com/
 
 # Hardening and Compliance
 
