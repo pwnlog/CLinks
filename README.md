@@ -401,6 +401,10 @@ Win32 API:
 - https://github.com/microsoft/windows-rs
 - https://pinvoke.net/
 
+Blinding Sysmon:
+- https://tierzerosecurity.co.nz/2024/03/27/blind-edr.html
+- https://codewhitesec.blogspot.com/2022/09/attacks-on-sysmon-revisited-sysmonente.html
+
 Shellcoding:
 - https://axcheron.github.io/linux-shellcode-101-from-hell-to-shell/
 - https://xacone.github.io/custom_shellcode.html
