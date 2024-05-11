@@ -167,6 +167,8 @@ Red team tactics:
 Practice Red Team Ops:
 - https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 - https://github.com/WesleyWong420/RedTeamOps-Havoc-101
+- https://github.com/dmcxblue/Red-Team-Guide?tab=readme-ov-file
+- https://tryhackme.com/path/outline/redteaming
 
 OPSEC:
 - https://github.com/WesleyWong420/OPSEC-Tradecraft
@@ -251,8 +253,13 @@ Logs references:
 - https://www.ultimatewindowssecurity.com/
 
 Sysmon references:
+- https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+- https://github.com/Sysinternals/SysinternalsEBPF
+- https://github.com/Sysinternals/SysmonForLinux
 - https://github.com/SwiftOnSecurity/sysmon-config
 - https://www.youtube.com/watch?v=kESndPO5Fig&list=PLk-dPXV5k8SG26OTeiiF3EIEoK4ignai7
+- https://github.com/trustedsec/SysmonCommunityGuide
+- https://github.com/trustedsec/SysmonCommunityGuide/blob/master/chapters/install_windows.md#installation-best-practice
 
 IANA: 
 - https://www.iana.org/domains/root/servers
@@ -387,6 +394,12 @@ Exploit development:
 - https://exploit.courses/#/index
 
 # Evasion
+
+Win32 API:
+- https://github.com/microsoft/CsWin32
+- https://github.com/microsoft/cppwinrt
+- https://github.com/microsoft/windows-rs
+- https://pinvoke.net/
 
 Shellcoding:
 - https://axcheron.github.io/linux-shellcode-101-from-hell-to-shell/
@@ -524,6 +537,7 @@ Collection of notes:
 - https://www.thehacker.recipes/
 - https://www.ired.team/
 - https://ppn.snovvcrash.rocks/
+- https://dmcxblue.gitbook.io/red-team-notes-2-0
 
 # Cheatsheets
 
