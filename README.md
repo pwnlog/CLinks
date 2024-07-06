@@ -386,6 +386,9 @@ Development guides:
 Web General:
 - https://github.com/EdOverflow/bugbounty-cheatsheet/tree/master
 
+Certificates Information:
+- https://certlogik.com/decoder/
+
 # Exploit Development
 
 Exploit development:
@@ -401,6 +404,9 @@ Win32 API:
 - https://github.com/microsoft/windows-rs
 - https://pinvoke.net/
 
+Syscalls:
+- https://offensivedefence.co.uk/posts/dinvoke-syscalls/
+
 Blinding Sysmon:
 - https://tierzerosecurity.co.nz/2024/03/27/blind-edr.html
 - https://codewhitesec.blogspot.com/2022/09/attacks-on-sysmon-revisited-sysmonente.html
@@ -414,6 +420,7 @@ Hiding Stuff:
 
 Malware Development Basics:
 - https://otterhacker.github.io/Malware/Introduction/0%20-%20Introduction.html
+- https://d3ext.github.io
 
 Bypass AV/EDR summary:
 - https://matro7sh.github.io/BypassAV/
